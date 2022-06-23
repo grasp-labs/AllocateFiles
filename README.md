@@ -44,12 +44,15 @@ Client ID and client secret needs to be collected to authorization purposed.
 If you find yourself in want of credentials, please contact us.
 
 Current shell and all processes started from current shell:
+
 (windows)
+
 set GRASP_DEMO_CLIENT_ID = <your client id>
 
 set GRASP_DEMO_CLIENT_SECRET =<your secret>
 
 (bash)
+
 export GRASP_DEMO_CLIENT_ID="<your client id>"
 
 export GRASP_DEMO_CLIENT_SECRET="<your secret>"
@@ -61,7 +64,7 @@ or the parsing of arguments (allocate.py).
 
 Argparse is setup to parse command-line arguments when calling script from python.
 
-call -h (help) to output instructions
+call --h (help) to output instructions
 ````commandline
 pipenv run python scripts\allocate.py --h
 
@@ -98,14 +101,14 @@ Simply change the sample file content and run script.
 Project structure
 -----------------------
 
-├───libs
-│   └───authorization
-├───samples
-│   └─── sample.csv
-│   └─── sample.json
-│   └─── sample.parquet
-└───scripts
-│   └─── allocate_csv.py
-│   └─── allocate_json.py
-│   └─── allocate_parquet.py
-config.py <-- this
+├───libs <br>
+│   └───authorization <br>
+├───samples <br>
+│   └─── sample.csv <br>
+│   └─── sample.json <br>
+│   └─── sample.parquet <br>
+└───scripts <br>
+│   └─── allocate_csv.py <br>
+│   └─── allocate_json.py <br>
+│   └─── allocate_parquet.py <br>
+config.py <br>
